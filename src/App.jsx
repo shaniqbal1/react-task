@@ -166,14 +166,14 @@ function App() {
             }} />
             <button style={{
               backgroundColor: 'blue',
-              padding: '7px 5px',
+              padding: '7px 6px',
               color: 'white',
               marginTop: '10px',
               borderRadius: '5px',
               cursor: 'pointer',
-              fontSize: '12px',
+              fontSize: '14px',
               border: 'none',
-            }}>CONTACT US</button>
+            }}>CONTACT us</button>
       </div>
       </div>
       
