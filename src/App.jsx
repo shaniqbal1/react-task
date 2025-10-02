@@ -79,7 +79,11 @@ function App() {
           justifyContent: "center",
           gap: "30px",
           maxWidth: "900px",
-          margin: "0 auto"
+          display: "flex",
+          alignItems: "center",
+          margin: "0 auto",
+          justifyContent: 'center`',
+          justifyItems: 'center',
         }}>
           {/* Box 1 */}
           <div style={{
@@ -132,9 +136,47 @@ function App() {
               fontSize: 'small',
               color: '#978d8d'
             }} />
+
           </div>
         </div>
+
+  
+      <div style={{
+            background: "#fff",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.07)",
+            width: "500px",
+            padding: "30px 20px",
+            textAlign: "center",
+            marginTop:"60px",
+            height:"180px",
+            display:"flex",            flexDirection:"column",
+            justifyContent:"center",
+            alignItems:"center",
+            margin:"40px auto 0 auto"
+            
+          }}>
+            <i className="fas fa-headset" style={{ fontSize: "32px", color: "#007bff", marginBottom: "12px" }}></i>
+            <Heading head="Features" style={{ margin: "16px 0 8px 0", fontSize: "18px" }}
+            />
+            <Para text=" Find advice and answers from our support team fast or get in touch" style={{
+              width: '90%',
+              fontSize: 'small',
+              color: '#978d8d'
+
+            }} />
+            <button style={{
+              backgroundColor: 'blue',
+              padding: '7px 5px',
+              color: 'white',
+              marginTop: '10px',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              fontSize: '12px',
+              border: 'none',
+            }}>CONTACT US</button>
       </div>
+      </div>
+      
     </>
   )
 }
